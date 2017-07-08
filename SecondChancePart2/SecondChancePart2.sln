@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.NestedDict01.AverageStud
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.NestedDict02CitiesByCountries", "22.NestedDict02CitiesByCountries\22.NestedDict02CitiesByCountries.csproj", "{01033EA0-1129-4970-AC5D-7AF75A427704}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.NestedDict03.UniqueNames", "22.NestedDict03.UniqueNames\22.NestedDict03.UniqueNames.csproj", "{9B913F99-B9C1-4521-B393-7F0FBBA58312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.NestedDict04.SortedCities", "22.NestedDict04.SortedCities\22.NestedDict04.SortedCities.csproj", "{E4972198-B825-4D03-982A-C9EFABA99485}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{01033EA0-1129-4970-AC5D-7AF75A427704}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01033EA0-1129-4970-AC5D-7AF75A427704}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01033EA0-1129-4970-AC5D-7AF75A427704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B913F99-B9C1-4521-B393-7F0FBBA58312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B913F99-B9C1-4521-B393-7F0FBBA58312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B913F99-B9C1-4521-B393-7F0FBBA58312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B913F99-B9C1-4521-B393-7F0FBBA58312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4972198-B825-4D03-982A-C9EFABA99485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4972198-B825-4D03-982A-C9EFABA99485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4972198-B825-4D03-982A-C9EFABA99485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4972198-B825-4D03-982A-C9EFABA99485}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
