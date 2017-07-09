@@ -13,11 +13,11 @@ namespace _21.DictEx02DictRef
             var resultDict = new Dictionary<string, int>();
             string input = Console.ReadLine();
 
-            while (input != "end")
+            while (input != "Over")
             {
-                var tokens = input.Split();
+                var tokens = input.Split(new char[] { ' ', ':' }, StringSplitOptions.RemoveEmptyEntries);
                 string name = tokens[0];
-                string cash = tokens[tokens.Length - 1];
+                string phone = tokens[tokens.Length - 1];
 
 
 
