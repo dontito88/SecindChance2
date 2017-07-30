@@ -16,24 +16,22 @@ namespace _23.NestedDictEx01.Wardrobe
 
             for (int i = 0; i < n; i++)
             {
-                var inputClothes = Console.ReadLine().Split(new char[] { '-', '>', ' '}, StringSplitOptions.RemoveEmptyEntries);
+                var inputClothes = Console.ReadLine().Split(new string[] { " -> "}, StringSplitOptions.RemoveEmptyEntries);
                 var color = inputClothes[0];
                 var clothesList = inputClothes[1].Split(',').ToArray();
 
                 if (!wardrobe.ContainsKey(color))
                 {
-                    wardrobe[color] = new Dictionary<string, int>();
+                    wardrobe.Add(color, new Dictionary<string, int>());
                 }
                 foreach (var item in clothesList)
                 {
-                    if (!wardrobe.ContainsKey(item))
+                    var clothDb = wardrobe[color];
+                    if (!clothDb.ContainsKey(item))
                     {
-                        wardrobe[color][item] = count;
+                        clothDb.Add(item, 0);
                     }
-                    else
-                    {
-                        wardrobe[color][item] = count + 1;
-                    }
+                    clothDb[item]++;
                 }
             }
 
@@ -55,7 +53,13 @@ namespace _23.NestedDictEx01.Wardrobe
                     var clothe = colors.Key;
                     var counter = colors.Value;
 
-                    Console.WriteLine($"* {clothe} - {counter}");
+                    Console.Write($"* {clothe} - {counter}");
+
+                    if (color == colorToFind && clothe == clotheToFind)
+                    {
+                        Console.Write($" (found!)");
+                    }
+                    Console.WriteLine();
                 }
             }
         }
