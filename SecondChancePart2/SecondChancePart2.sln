@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32.StringAndTextEx06.Senten
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.StringAndTextMEx01.ValueOfString", "33.StringAndTextMEx01.ValueOfString\33.StringAndTextMEx01.ValueOfString.csproj", "{7B148598-5FEA-4CF1-AFF9-54470E638187}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.RegExLab01.MatchFullName", "33.RegExLab01.MatchFullName\33.RegExLab01.MatchFullName.csproj", "{522F934F-DA56-4280-944F-869EA47E6F6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{7B148598-5FEA-4CF1-AFF9-54470E638187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B148598-5FEA-4CF1-AFF9-54470E638187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B148598-5FEA-4CF1-AFF9-54470E638187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522F934F-DA56-4280-944F-869EA47E6F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522F934F-DA56-4280-944F-869EA47E6F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522F934F-DA56-4280-944F-869EA47E6F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522F934F-DA56-4280-944F-869EA47E6F6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
